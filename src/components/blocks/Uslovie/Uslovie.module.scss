@@ -1,0 +1,76 @@
+.root {
+  margin-bottom: 10.9rem;
+}
+
+.main {
+  margin-top: 0rem;
+}
+
+.card {
+  display: flex;
+  justify-content: space-between;
+
+  align-items: center;
+}
+
+.title {
+
+  margin-bottom: 1rem;
+  font-size: 6.4rem;
+  font-weight: 600;
+  line-height: 120%;
+  color: #000000;
+  @media (max-width: 1024px) {
+    margin-top: 5rem;
+  }
+}
+
+.imgWrapper {
+  position: relative;
+  height: 47.4rem;
+  width: 26.4rem;
+  @media (max-width: 1024px) {
+    display: none;
+  }
+}
+
+.text {
+  max-width: 35rem;
+
+}
+
+.titleSvg {
+  font-weight: 600;
+  font-size: 2.9rem;
+}
+
+.starTitle {
+  display: flex;
+  margin-bottom: 2.8rem;
+  align-items: center;
+  gap: 2.7rem;
+  @media (max-width: 1024px) {
+    margin-top: 5rem;
+  }
+}
+
+.star {
+  width: 7.2rem ;
+  height: auto;
+}
+
+.doctors {
+  width: 49.2rem;
+  height: 49.2rem;
+  @media (max-width: 1024px) {
+    display: none;
+  }
+}
+
+.runner {
+  width: 57.2rem;
+  height: 57.2rem;
+  @media (max-width: 1024px) {
+    display: none;
+  }
+}

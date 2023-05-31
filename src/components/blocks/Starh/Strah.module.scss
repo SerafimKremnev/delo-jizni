@@ -1,0 +1,54 @@
+.root {
+  margin-bottom: 10.9rem;
+}
+
+.cards {
+  margin-top: 4.9rem;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: 1fr;
+  gap: 3.5rem;
+  @media (max-width: 1024px) {
+    grid-template-columns: 1fr;
+  }
+}
+.card {
+  background: var(--primary);
+  min-height: 20rem;
+  border-radius: 20px 20px 0px 0px;
+  position: relative;
+  text-align: center;
+
+}
+
+.icon {
+  svg {
+    width: auto;
+    height: 75%;
+  }
+}
+
+.inner {
+  height: 20rem;
+  position: absolute;
+  display: grid;
+  padding: 3rem 1.7rem;
+  background: #FFFFFF;
+  box-shadow: 0px 2px 18px rgba(41, 41, 41, 0.1);
+  border-radius: 20px;
+  @media (max-width: 1024px) {
+    width: 100%;
+  }
+}
+
+.nameCard {
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: var(--white);
+}
+
+.text {
+  color: #0D1C41;
+  font-size: 1.4rem;
+}

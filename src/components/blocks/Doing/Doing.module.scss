@@ -1,0 +1,47 @@
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 3rem;
+  margin-top: 4rem;
+  @media (max-width: 1024px) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.card {
+  gap: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2.5rem;
+  text-align: center;
+  border: .1rem solid #4A607A;
+  /* norm */
+
+  box-shadow: 0px 2px 18px rgba(41, 41, 41, 0.1);
+  border-radius: 2rem;
+  cursor: pointer;
+  transition: all .2s;
+}
+
+.root {
+  margin-bottom: 10.9rem;
+}
+
+.card:hover {
+  scale: 1.1;
+  border-color: #DDD0A4;
+}
+
+.btn {
+  padding-left: 10rem;
+  padding-right: 10rem;
+}
+
+.download {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5rem;
+  margin-bottom: 10.9rem;
+}
